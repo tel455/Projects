@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BA1E573-7372-E167-E343-355A12E0EBD0" name="Moons">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>DFAE4715-955A-A23F-9C0A-06D6E1B1A072</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Planets_planet_id" id="46F45A8F-A96B-94AA-FF3A-4A7F9400C8C8">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>E895E096-FF39-1F89-961C-C4425AF64112</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAFF599A-FD65-E368-6621-A8B20EEEC0CB" referredColumn="CE62A45A-6ADC-FA32-26FC-A2AB0F78581B"/>
+</associations>
+</Column>
+<Column name="moon_id" id="7088F9C8-9453-D2ED-CA8E-944B8B516684">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>5A73A2B7-5586-2F35-B2E7-1B6B8BD1E0E6</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A3CC0ECF-DC9F-5BE7-DDF8-B9294CC24CAE">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>89E2E5AD-5771-4765-08B0-5FB7666C5F65</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orbit_type" id="051AB5C6-F78B-C684-D641-47772AD88D35">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>E141980D-7C9B-FBFF-CD31-1137F74B179A</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="revolution_rate" id="793284EB-45F7-2DB7-A2AF-983E3701F1F2">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>BF9D2CCD-F146-84E6-84CF-5FC8973DB4C8</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="size" id="E0C4F235-A1C1-1888-7766-BAB0E4EB2D48">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>82D04225-37A7-D825-C031-AD0AA47978C1</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1B97311-126E-4B38-4068-1109E2348F5A" name="Moons_PK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>07A06DCA-6997-037C-49C0-72B234C824DB</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7088F9C8-9453-D2ED-CA8E-944B8B516684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66F5C350-007F-1BCB-3671-3DE4C51F88A8" name="Moons_Planets_FK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>2B3612B0-532A-7B6E-8358-3EA85C2A430F</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46F45A8F-A96B-94AA-FF3A-4A7F9400C8C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

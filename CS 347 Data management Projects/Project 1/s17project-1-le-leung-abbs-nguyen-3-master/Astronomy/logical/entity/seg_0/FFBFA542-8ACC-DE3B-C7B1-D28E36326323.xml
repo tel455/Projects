@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFBFA542-8ACC-DE3B-C7B1-D28E36326323" name="Planets">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:16:29 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="planet_id" id="2D63ED17-A2A6-77CB-A91B-E9CAC8ED6699">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:38:06 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A99C0F6C-71B5-1565-049F-6A890A7EB097">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:38:22 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="206B2F52-5D61-94BF-1479-A2A1FA3080F3">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:41:46 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contains_water" id="B24CF132-37DF-33B8-32C3-78AFFB5CAFEB">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:45:03 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="size" id="E1171DAA-A4F0-3349-3D5A-CBD5BE772BD7">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:51:39 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="revolution_rate" id="9F952849-7773-F31E-3A6A-8D183FD794DB">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:52:34 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ps_id" id="2F9CAB6E-2B73-150A-59F8-B8096F682218">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:59:40 UTC</createdTime>
+<generatorID>26834815-1BF8-9C07-961F-FF85ADD4CD8C</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<referedAttribute>F665BA6A-01A6-9EBD-7BD4-04E2FEFBDC45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB74AFCF-4C27-E19F-A526-0672882EEE5C" name="Planets PK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:38:20 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D63ED17-A2A6-77CB-A91B-E9CAC8ED6699</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DE3CDCF-F2D6-1D7F-C14D-FA67AF7DB0D0" name="Star">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>78C80250-037E-35E0-6456-B7335F334E19</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="star_id" id="3E668B7F-6603-D425-7812-3E6BD0992EC5">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>FCD02620-1019-C9E8-9685-9BB2807A1992</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E10B4AB4-0F1B-38FC-0752-5B57964A2FE3">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>E72FB83C-EBCE-5DAE-7EA4-75B57F6F5C72</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperature" id="9939503E-8191-F9F3-0F26-49D72C1E5849">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>1A3B3779-B794-D853-A3F3-2117E13EE30A</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="D133571E-42CB-FCCF-D287-F3428407E535">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-02-02 01:04:54 UTC</createdTime>
+<generatorID>4DB091B3-7A33-8DAC-57BD-400E72A04EF9</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="size" id="4C83F6CE-859C-F92A-9BDC-C7C0581957F8">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-02-02 01:04:54 UTC</createdTime>
+<generatorID>3D76CFDB-E02B-BEA5-B3AC-92BFCE1BDA97</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE495859-5180-1A17-0BE8-D0599E4973F9" name="Star_PK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>EFA7E251-84DC-4D27-41ED-4BB5A0FB23C9</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E668B7F-6603-D425-7812-3E6BD0992EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

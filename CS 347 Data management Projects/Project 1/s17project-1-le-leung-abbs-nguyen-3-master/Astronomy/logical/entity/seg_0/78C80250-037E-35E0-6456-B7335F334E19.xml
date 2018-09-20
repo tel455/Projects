@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78C80250-037E-35E0-6456-B7335F334E19" name="Star">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:24:56 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="star_id" id="FCD02620-1019-C9E8-9685-9BB2807A1992">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:37:03 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="E72FB83C-EBCE-5DAE-7EA4-75B57F6F5C72">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:37:12 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temperature" id="1A3B3779-B794-D853-A3F3-2117E13EE30A">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:44:18 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="4DB091B3-7A33-8DAC-57BD-400E72A04EF9">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-02-02 00:58:59 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="size" id="3D76CFDB-E02B-BEA5-B3AC-92BFCE1BDA97">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-02-02 00:59:47 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFA7E251-84DC-4D27-41ED-4BB5A0FB23C9" name="Multiple Star System PK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:37:10 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCD02620-1019-C9E8-9685-9BB2807A1992</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

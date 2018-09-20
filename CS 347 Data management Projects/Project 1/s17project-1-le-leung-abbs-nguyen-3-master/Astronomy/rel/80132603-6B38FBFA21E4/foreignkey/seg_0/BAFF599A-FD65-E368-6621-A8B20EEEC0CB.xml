@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAFF599A-FD65-E368-6621-A8B20EEEC0CB" containerWithKeyObject="3BA1E573-7372-E167-E343-355A12E0EBD0" localFKIndex="66F5C350-007F-1BCB-3671-3DE4C51F88A8" name="Moons_Planets_FK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>2B3612B0-532A-7B6E-8358-3EA85C2A430F</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C834ABF-54BF-6637-A39A-D263E8898983</referredTableID>
+<keyObject>01C1601A-882B-70AA-EF6C-79CB7D012C09</keyObject>
+<referredKeyID>01C1601A-882B-70AA-EF6C-79CB7D012C09</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

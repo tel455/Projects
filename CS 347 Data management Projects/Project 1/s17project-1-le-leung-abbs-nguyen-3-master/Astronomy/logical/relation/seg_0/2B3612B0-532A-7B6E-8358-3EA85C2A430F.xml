@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="2B3612B0-532A-7B6E-8358-3EA85C2A430F">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 19:32:13 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<engineerTo>
+<item key="80132603-B465-C1D8-85BC-6B38FBFA21E4" value="true"/>
+</engineerTo>
+<sourcePk>EB74AFCF-4C27-E19F-A526-0672882EEE5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFBFA542-8ACC-DE3B-C7B1-D28E36326323</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFAE4715-955A-A23F-9C0A-06D6E1B1A072</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

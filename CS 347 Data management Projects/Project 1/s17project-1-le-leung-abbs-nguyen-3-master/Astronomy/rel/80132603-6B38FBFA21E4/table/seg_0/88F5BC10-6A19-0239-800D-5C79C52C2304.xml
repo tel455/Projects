@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88F5BC10-6A19-0239-800D-5C79C52C2304" name="Relation_3">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Terrain_terrain_id" id="FE577C54-9531-E434-EE09-4B3C9D7A4B96">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E9C1072-B106-3DF0-AFE2-A2A4A445962F" referredColumn="8CFB9397-AE35-D7F0-BC11-EC17064478C5"/>
+</associations>
+</Column>
+<Column name="Planets_planet_id" id="32C1041A-CFDF-2CFD-5FC0-E1BDB34C86F8">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0C01180-FFD8-0EAE-7926-9A7DB5C7699D" referredColumn="CE62A45A-6ADC-FA32-26FC-A2AB0F78581B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F81600FE-CB8E-4D7E-D847-A1656C0F0676" name="Relation_3_PK">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<ownerDesignName>Astronomy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE577C54-9531-E434-EE09-4B3C9D7A4B96"/>
+<colUsage columnID="32C1041A-CFDF-2CFD-5FC0-E1BDB34C86F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0F3B9C1-E05E-73B1-5926-15E56B0E5DEC" name="FK_ASS_3">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>8AFAFD05-0268-8A57-1041-A760D7BA071C</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE577C54-9531-E434-EE09-4B3C9D7A4B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="364C7073-9F52-67D4-D79C-147D6FF3BCAD" name="FK_ASS_4">
+<createdBy>samnguyen</createdBy>
+<createdTime>2017-01-28 20:01:24 UTC</createdTime>
+<generatorID>8AFAFD05-0268-8A57-1041-A760D7BA071C</generatorID>
+<ownerDesignName>Astronomy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32C1041A-CFDF-2CFD-5FC0-E1BDB34C86F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
