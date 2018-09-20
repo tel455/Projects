@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Thi Le
+    TEL455-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Register/Login</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <h1>E-Bae</h1>
+    <img src="gavel.jpg" alt="gavel" style="width:304px;height:228px;"></img>
+    <nav id="siteNavigator">
+        <ul role="directory">
+            <li>
+                <a href="index.php">E-Bae</a>
+            </li>
+            <li>
+                <a href="terms.php">Terms and Conditions</a>
+            </li>
+        </ul>
+    </nav>
+    <p class="notify">You must register before you can use our features!</p>
+    <h2>Register</h2>
+    <form action="registerConfirm.php" method="get">
+        Your information will be kept secret!
+        <br></br>
+        Username: <input type="text" required="required"></input>
+        <br></br>
+        Password: <input type="password" required="required"></input>
+        <br></br>
+        Email: <input type="email" required="required"></input>
+        <br></br>
+        First name: <input type="text" required="required"></input>
+        <br></br>
+        Last name: <input type="text" required="required"></input>
+        <br></br>
+        By clicking submit, you agree to our terms and conditions(above).
+        <input type="submit" value="Submit"></input>
+    </form>
+    <h3>Login</h3>
+    <form action="success.php" method="get">
+        Username: <input type="text" required="required"></input>
+        <br></br>
+        Password: <input type="password" required="required"></input>
+        <br></br>
+        <input type="submit" value="Submit"></input>
+    </form>
+</body>
+</html>

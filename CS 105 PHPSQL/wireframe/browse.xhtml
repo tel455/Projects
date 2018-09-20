@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--Thi Le
+    TEL455-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Browse Listings</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <h1>E-bae</h1>
+    <p>E-bae image here</p>
+    <nav id="siteNavigator">
+        <ul role="directory">
+            <li>
+                <a href="success.xhtml">Home</a>
+            </li>
+            <li>
+                <a href="list.xhtml">List an Item</a>
+            </li>
+            <li>
+                <a href="cancel.xhtml">Cancel Listing</a>
+            </li>
+            <li>
+                <a href="browse.xhtml">Browse Listings</a>
+            </li>
+            <li>
+                <a href="bid.xhtml">Place Bid</a>
+            </li>
+            <li>
+                <a href="close.xhtml">Close Auction</a>
+            </li>
+            <li>
+                <a href="pay.xhtml">Pay</a>
+            </li>
+            <li>
+                <a href="update.xhtml">Update Listing</a>
+            </li>
+            <li>
+                <a href="terms.xhtml">Terms and Conditions</a>
+            </li>
+            <li>
+                <a href="index.xhtml">Logout</a>
+            </li>
+        </ul>
+    </nav>
+    <h2>Browse:
+        <input type="search"></input>
+        <input type="submit" value="Search"></input>
+    </h2>
+    <p>Sort by:
+        <!--Dead Links, TBD-->
+        <a href="">Most Recent</a>
+        <a href="">Price:LO-HI</a>
+        <a href="">Price:HI-LO</a>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Seller</th>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Starting Bid</th>
+                <th>Current Bid</th>
+                <th>Reserve It Now</th>
+                <th>Time Left</th>
+                <th>Deadline</th>
+                <th>Status</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TEL455</td>
+                <td>Donations</td>
+                <td>Broke college student looking for donations</td>
+                <td>$5.00</td>
+                <td>$5.00</td>
+                <td>$100000.00</td>
+                <!--Figure out how to embed a timer-->
+                <td>1 day 3 hr 30 min</td>
+                <td>02/19/2016 04:30 PM</td>
+                <td>OPEN</td>
+                <td>
+                    <form action="bid.xhtml" method="get">
+                        <button>Bid!</button>
+                    </form>
+                </td>
+                <td>
+                    <form> <!--action="tbd" method="get"-->
+                         <button>Reserve!</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>ABC123</td>
+                <td>2013 Toyota Camry</td>
+                <td>20k Miles, clean title, runs perfect</td>
+                <td>$11,500.00</td>
+                <td>$16,800.00</td>
+                <td>$25,000.00</td>
+                <td>4 day 6 hr 30 min</td>
+                <td>02/22/2016 10:30 AM</td>
+                <td>OPEN</td>
+                <td>
+                    <form action="bid.xhtml" method="get">
+                        <button>Bid!</button>
+                    </form>
+                </td>
+                <td>
+                    <form> <!--action="tbd" method="get"-->
+                        <button>Reserve!</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*specificity rule sets*/
+body {
+    font-size: 15pt;
+    text-align: center;
+}
+
+/*full box model #1*/
+h1 {
+    /*display: inline;*/
+    margin: 1.5%;
+    border: .2em solid black;
+    padding: 1.5%;
+    color: purple;
+    text-align: center;
+    font-family: "Goudy Stout";
+}
+
+/*for notification messages like "You can't do this!"*/
+/*full box model #2*/
+.notify {
+    margin: .25em;
+    border: .1em solid black;
+    padding: .25em;
+    text-align: center;
+    color: red;
+    clear: both;
+}
+
+h2, h3 {
+    /*to prevent the text from being next to the image*/
+    clear: both;
+    text-align: center;
+}
+
+/*putting borders on the tables*/
+table, th, td {
+    border-collapse: collapse;
+    border: .1em solid black;
+    font-size: 15pt;
+    text-align: center;
+}
+
+form {
+    font-size: 12pt;
+    text-align: center;
+}
+
+/*specificity rule sets
+    .class has higher specificity than element selectors*/
+/*styling two adjacent elements on the terms and conditions page, term1 and term2*/
+.term1 {
+    float: left;
+    font-size: 10pt;
+}
+
+.term2 {
+    float: right;
+    font-size: 10pt;
+}
+
+/*navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    font-size: 12pt;
+}
+
+/*for the logout button to be right-aligned*/
+.placement {
+    float:right;
+    list-style-type:none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+/*change the link color on hover */
+li a:hover {
+    background-color: red;
+}
+/*end navigation bar styling*/
+
+.detail {
+    clear: both;
+    color: red;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.bear {
+    float: center;
+}
