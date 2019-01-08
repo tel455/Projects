@@ -1,0 +1,26 @@
+name: Thi Edison Khac Le
+eid: TEL455
+bitbucketid: tel455
+comments: Traffic Incident Reports
+
+Project created and run on tomcat v9.0
+
+Steps to run in Eclipse:
+1) File -> Import -> Maven -> Existing Maven Projects
+2) Browse to the directory where you have cloned the repo and
+   select the assignment1 project
+3) In Project Explorer / Package Explorer menu, right click the
+   project and then Maven -> Update Project
+4) Once Maven has finished downloading the dependencies, right click
+   on the project and choose Run As -> Run on Server
+5) Run on the configured Tomcat instance
+
+Browse to http://localhost:8080/assignment1/trafficincidentreports
+
+Testing: 
+http://localhost:8080/assignment1/trafficincidentreports?session=start
+http://localhost:8080/assignment1/trafficincidentreports?published_date=2018-06-13
+http://localhost:8080/assignment1/trafficincidentreports?issue_reported=crash%20urgent
+http://localhost:8080/assignment1/trafficincidentreports?session=end
+
+
