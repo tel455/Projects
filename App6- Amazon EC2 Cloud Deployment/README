@@ -6,4 +6,4 @@ or you can use http://18.219.242.54:8080/traffic_issues_counts.html
 cloud: Amazon AWS
 comments: Assignment 6
 
-When installing maven, git, tomcat, and openjdk, I installed openjdk-11-jdk and tomcat8. Everything is now working but for some reason, there are random times when you click "here" and it just shows an empty table. I haven't touched or made any edits at all but the links just do this on their own. It may be a race condition of some sort between my application and the server requests.
+When installing maven, git, tomcat, and openjdk, I installed openjdk-11-jdk and tomcat8. Everything is now working.
